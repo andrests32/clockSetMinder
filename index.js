@@ -50,7 +50,7 @@ setInterval(() => {
       (currentMessageIndex + 1) % messageMind.length;
   }
 }),
-3600000;
+  3600000;
 
 if (localStorage.getItem("message") === null) {
   localStorage.setItem("message", JSON.stringify(messageMind));
