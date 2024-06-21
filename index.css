@@ -1,0 +1,68 @@
+:root {
+    --kalam: "Kalam", cursive;
+    --size1: 300;
+    --size2: 400;
+    --size3: 700;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #4e4376 1%, #f3e7e9 100%);
+}
+
+body {
+    max-width: 2560px;
+
+}
+
+main {
+    width: 100%;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 40px;
+}
+
+.section-main--container {
+    min-width: 320px;
+    width: 1084px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+
+span {
+    font-family: var(--kalam);
+    font-size: 200px;
+    color: #2c2b4b;
+    text-align: center;
+    width: 30%;
+    height: 110%;
+}
+
+.dots {
+    font-family: var(--kalam);
+    font-size: 150px;
+    margin: 0 auto;
+    color: #2c2b4b;
+}
+
+p {
+    font-family: var(--kalam);
+    font-size: 5rem;
+    text-align: center;
+    width: 80%;
+}
